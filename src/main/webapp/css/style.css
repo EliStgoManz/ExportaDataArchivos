@@ -1,0 +1,218 @@
+/* custom styles */
+@import url('https://fonts.googleapis.com/css?family=Ropa+Sans');
+/* <-- Libre Franklin Reemplaza Benton Sans  --> */
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,700');
+/* <-- Open Sans Condensed Reemplaza DinNexLTPro  --> */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+/*primer cambio de links 
+h1{
+	color: #fcf7f6;
+}
+
+
+a:link{
+	color: #fb8500;
+	text-decoration:none;
+}
+
+
+a:visited{
+	color: #219ebc;
+	text-decoration:none;
+}
+
+a:hover{
+	color: #8ecae6;
+	text-decoration:underline;
+}
+
+a:active{
+	color: #023047
+	text-decoration:underline;
+}*/
+
+
+
+h1{
+	color: #fcf7f6;
+}
+
+/*
+a:link, a:visited{
+	background-color: #de6d61;
+	color:white;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration:none;
+}
+
+
+ a:hover, a:active{
+	background-color: #e34a6a;
+}
+*/
+
+
+body{
+  font-size: 1em;
+  font-family:Helvetica,Arial,sans-serif;
+  padding : 0;
+  /*padding-top:70px;*/
+  margin  : 0;
+  border:none;
+  background : #FFFFFF
+	
+}
+
+
+.form {
+ /*position : relative;*/
+  display:flex;
+  width:100%;
+  max-width:600px;
+  /*width  : 740px;*/
+  /*height : 498px;*/
+  flex-direction:column;
+  margin : 0 auto;
+  /*padding: 1em;*/
+  align-items:center;
+  justify-content: center;
+  
+  
+  
+  /*box-sizing: border-box;*/
+  /*background : #FFF url(background.jpg);*/
+
+  /* creamos nuestra malla (grid) */
+ /* display  : grid;*/
+ /* grid-gap : 20px;
+  grid-template-columns : repeat(2, 1fr);
+  grid-template-rows    : 10em 1em 1em 1em;*/
+}
+
+
+
+
+
+
+ul{
+	padding;0;
+	idth:100;
+}
+
+li{
+	display:inline;
+}
+
+a{
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 19.5%;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 3;
+  color: black;
+	
+	
+}
+
+li:last-child a{
+	margin-right:0;
+}
+
+
+a:link, a:visited, a:focus {
+  background: yellow;
+}
+
+a:hover {
+  background: orange;
+}
+
+a:active {
+  background: red;
+  color: white;
+}
+
+
+
+#submit{
+	font-weight: bold;
+	cursor:pointer;
+	/*padding:5px;*/
+	padding:none;
+	/*margin: 0 10px 20px 0;*/
+	margin-left:auto;
+	margin-rigth:auto;
+	border: 1px solid #ccc;
+	background: #eee;
+	border-radius: 8px 8px 8px 8px;
+	float:none;
+}
+
+
+
+#submit:hover{
+	background:#ddd;
+}
+
+
+.image{
+  border:1 px solid #ddd;
+  border-radius: 4px;
+  pagging: 5px;
+  width:150 px;
+}
+
+
+#ModalUpload{
+	margin-top:15px;
+}
+
+.containers{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:50vh;
+}
+
+
+.abs-center{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	min-height:50vh;
+}
+
+#submite:hover{
+	
+	background:rgba(0,0,0,0);
+	color:#3a7999;
+	box-shadow:inset 0 0 0 3px #3a7999;
+	
+}
+
+
+
+/**  Header **/
+#header{
+  background-color: #D41930;
+  
+}
+
+.header-contact-numbers{
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: right;
+  letter-spacing: 2px;
+  margin-right: 25px;
+  padding-right: 55px;
+}
+
+
